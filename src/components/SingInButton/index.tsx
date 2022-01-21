@@ -9,13 +9,12 @@ export function SingInButton() {
     <button type="button" className={styles.signInButton}>
       <FaGithub color="#eba417" />
       Kaique Lira
-      <FiX color="#737380" className={styles.closeIcon}/>
+      <FiX color="#737380" className={styles.closeIcon} />
     </button>
   ) : (
     <button type="button" className={styles.signInButton}>
       <FaGithub color="#04d301" />
       Sign in with GitHub
-     
     </button>
   );
 }
